@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://andersgs.github.io/"
 title = "dsci'nomics"
 copyright = "&copy; 2017 Anders Gonçalves da Silva"
 theme = "hugo-academic"

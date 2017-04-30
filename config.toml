@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Anders Gonçalves da Silva"
   role = "Bioinformatician"
-  organization = "Microbiological Diagnostic Unit --- Public Health Lab"
+  organization = "Microbiological Diagnostic Unit - Public Health Lab"
   organization_url = "https://mdu.bioinformatics.unimelb.edu.au"
   avatar = "image.jpeg"
   email = "andersgs@gmail.com"

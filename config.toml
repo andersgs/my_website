@@ -1,5 +1,5 @@
 baseurl = "https://dscinomics.com/"
-title = "dsci'nomics"
+title = "dsci'nomics: data science with a side of genomics"
 copyright = "&copy; 2017 Anders Gonçalves da Silva"
 theme = "hugo-academic"
 enableEmoji = true
@@ -9,7 +9,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 disqusShortname = "dscinomics"
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-98372807-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -21,6 +21,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Anders Gonçalves da Silva"
   role = "Bioinformatician"
+  description = "Data science with a side of genomics!"
   organization = "Microbiological Diagnostic Unit - Public Health Lab"
   organization_url = "https://mdu.bioinformatics.unimelb.edu.au"
   avatar = "image.jpeg"
@@ -126,7 +127,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "https:://twitter.com/drandersgs"
+    link = "https://twitter.com/drandersgs"
 
   [[params.social]]
     icon = "google-scholar"

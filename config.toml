@@ -22,6 +22,7 @@ defaultContentLanguageInSubdir = false
   name = "Anders Gonçalves da Silva"
   role = "Bioinformatician"
   description = "Data science with a side of genomics!"
+  keywords = "Data Science, Genomics, R, Python, Machine Learning"
   organization = "Microbiological Diagnostic Unit - Public Health Lab"
   organization_url = "https://mdu.bioinformatics.unimelb.edu.au"
   avatar = "image.jpeg"
@@ -164,6 +165,11 @@ defaultContentLanguageInSubdir = false
   name = "Posts"
   url = "#posts"
   weight = 3
+  
+  [[menu.main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 4
 
 [[menu.main]]
   name = "Contact"

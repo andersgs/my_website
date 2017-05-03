@@ -19,7 +19,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "photos/Staphylococcus_aureus header.svg"
+image = "photos/Staphylococcus_aureus_header.svg"
 caption = "Scanning electron micrograph (SEM) of Staphylococcus aureus bacteria (By CDC/ Matthew J. Arduino, DRPH Photo Credit: Janice Haney Carr [Public domain], via Wikimedia Commons)"
 
 +++

@@ -19,6 +19,8 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
+  short_mobile_title = "dsci'nomics"
+  mobile_title = "dsci'nomics: data sci + genomics"
   name = "Anders Gonçalves da Silva"
   role = "Bioinformatician"
   description = "Data science with a side of genomics!"

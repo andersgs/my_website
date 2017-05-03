@@ -19,7 +19,7 @@ url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "photos/Artibeus_jamaicensis1.jpg"
-caption = "Artibeus jamaicensis (By Alex Borisenko, Biodiversity Institute of Ontario [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons)"
+image = "photos/bats.svg"
+caption = "*Artibeus jamaicensis* (By Alex Borisenko, Biodiversity Institute of Ontario [[CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons)"
 
 +++

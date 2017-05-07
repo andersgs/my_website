@@ -35,7 +35,7 @@ about CWL and what I think was not quite as intuitive as I had hoped.
 
 # Getting excited about CWL
 
-If you go to the CWL webpage you are greated, right at the top, by these two 
+If you go to the CWL webpage you are greeted, right at the top, by these two 
 sentences:
 
 {{% alert success %}}
@@ -59,9 +59,9 @@ with CWL.
 
 {{% alert warning %}}
 One important thing to remember: CWL is the spec! It is designed to be `vendor`
-agnostic (a *lingua franca* or trading langauge for workflows). So, it is 
-important to distinguish between perceived CWL shortcommings, and
-shortcommings of any particular `vendor` that advertises CWL-support.
+agnostic (a *lingua franca* or trading language for workflows). So, it is 
+important to distinguish between perceived CWL shortcomings, and
+shortcomings of any particular `vendor` that advertises CWL-support.
 {{% /alert %}}
 
 # The CWL basics
@@ -70,7 +70,7 @@ Given my experience with `make` I made the mistake of making comparisons with it
 and had the wrong expectations. 
 
 {{% alert info %}}
-My advise is, if you have used `make`, keep an open mind while dealving into CWL.
+My advise is, if you have used `make`, keep an open mind while delving into CWL.
 While there are some similarities, implementation differs.
 {{% /alert %}}
 
@@ -79,10 +79,13 @@ file. These files can then be read and executed by any number of
 different software (called `vendors`). That is what makes CWL portable.
 It provides a set of rules of how to write these YAML files that 
 can be expected to be respected by any piece of software that claims to 
-supoort CWL.
+support CWL.
 
 There are two kind of documents you can write: `Command Line Tool
-Description`, and a `Workflow Description`. In this post, we will look 
+Description`, and a `Workflow Description`. The `Command Line Tool 
+Description`, as the name implies, describes how to build 
+command lines, which are the building blocks of for the `Workflow
+Description` documents. In this post, we will look 
 over `Command Line Tool Description`.
 
 ## An example Command Line Tool Description
@@ -96,7 +99,7 @@ to build a command line string to run a certain command, and what to do
 with the output of the command. To get started, let us have a look a the
 description for `seqtk sample`:
 
-```
+```bash
 Usage:   seqtk sample [-2] [-s seed=11] <in.fa> <frac>|<number>
 
 Options: -s INT       RNG seed [11]
@@ -105,7 +108,7 @@ Options: -s INT       RNG seed [11]
 
 By this description, `seqtk sample` needs an input sequence file (that while 
 is implied to be FASTA, it will also accept FASTQ); a fraction or number of
-reads to keep (in my case, I used number of reads), and then it can optionally
+reads to keep (in my case, I used number of reads); and it can optionally
 take a `seed` to set the random number generator, and a flag to indicate
 whether to use a `2-pass mode` or not. I chose not to use the `2-pass mode`, 
 so will ignore that option below. However, the `seed` option was essential
@@ -116,7 +119,7 @@ streamed to `stdout`.
 
 So, I am looking to build the equivalent of:
 
-```
+```bash
 seqtk sample -s 6773 seq_R1.fq 1000 > seq_10000_R1.fq
 ```
 
@@ -177,7 +180,7 @@ should be called, in this case I gave it an array with the main executable
 command can be used when appropriate (e.g., `baseCommand: mlst`).
 
 The `doc` strings can be used throughout the document to describe what you are
-doing and why! I really like this feature, but I suspect it will seldomly be 
+doing and why! I really like this feature, but I suspect it will seldom be 
 actually used, which is a pity.
 
 Next I have listed the inputs to the tool under `inputs`.
@@ -201,7 +204,7 @@ If capturing the tools `stdout`, you need to specify a filename
 under the `stdout` key. This could be a simple string (e.g., `myout.txt`), 
 or it can be an expression, as I have used here. In this case, I used the
 `$()` notation to access elements of the `inputs` object. The `$()` gives you 
-access to a limited set of javascript notation to access different objects.
+access to a limited set of JavaScript notation to access different objects.
 You can use it to access data in `inputs`, `self`, and `runtime` objects. 
 In this case, I use it to create a filename that has the following pattern:
 

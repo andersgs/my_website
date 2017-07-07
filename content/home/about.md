@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2017-04-28T00:00:00"
+date = "2017-07-07T00:00:00"
 draft = false
 
 widget = "about"
@@ -45,6 +45,6 @@ weight = 1
 
 # Biography
 
-Anders Gonçalves da Silva has spent the last 10 years slowly morphing from a conservation biologist to a bioinformatician to a software developer/data scientist. His professional career has been dedicated to using data to improve decision making. Through this journey, he has worked with critters and bugs spanning a good portion of the tree of life, including mammals, birds, reptiles, amphibians, fish, beetles, mosquitoes, protozoans, bacteria, and viruses.
+Anders Gonçalves da Silva is dedicated to using data to improve decision making. He has worked in conservation, fisheries management, wildlife disease, and public health. As a consequence he has worked with critters and bugs spanning a good portion of the tree of life, including mammals, birds, reptiles, amphibians, fish, beetles, mosquitoes, protozoans, bacteria, and viruses.
 
-He currently works at Victoria’s Microbiological Diagnostic Unit (MDU) Public Health Lab (PHL). The lab is within The University of Melbourne, but is funded by the State of Victoria’s Department of Health and Human Services. His main role is to facilitate the move from a complex bug-centric multi-workflow primarily wet-lab approach to processing microbial samples, to a bug-agnostic single-workflow based on the analysis of whole genome sequence data. In practice, this consists of developing software and pipelines that can be easily deployed and scaled to faciliate epidemiologists, clinical microbiologists, and public health officials interacting with whole genome sequence data.
+He currently works at Victoria’s (Australia) Microbiological Diagnostic Unit (MDU) Public Health Lab (PHL). The lab is within The University of Melbourne, but is funded by the State of Victoria’s Department of Health and Human Services. His main role is to facilitate the move from a complex bug-centric multi-workflow primarily wet-lab approach to processing microbial samples, to a bug-agnostic single-workflow based on the analysis of whole genome sequence data. In practice, this consists of developing software and pipelines that can be easily deployed and scaled to faciliate epidemiologists, clinical microbiologists, and public health officials interacting with whole genome sequence data.

@@ -3,5 +3,7 @@
 .Rhistory
 .RData
 .Ruserdata
+public/
 public/*
 static/*
+public_old/*
